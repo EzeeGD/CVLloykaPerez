@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Zilla Slab', serif;
+}
+
+header {
+  background: #C5CAE9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 990px;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 990px;
+}
+
+/*Información General*/
+
+.informacionGeneral {
+  padding: 2rem;
+  width: 35%;
+}
+
+.avatar {
+  width: 10rem;
+}
+
+.skillsBox {
+  display: flex;
+}
+
+.ulSkills {
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+    color: #ff6c9f;
+}
+
+.lenguajes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.herramientas {
+  display: flex;
+  justify-content: space-between;
+}
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icono {
+  width: 2rem;
+}
+
+li.skillsImg {
+  text-align: center;
+}
+
+li.skillsName {
+  text-align: center;
+}
+
+/* Antecedentes */
+
+.antecedentes {
+  padding: 2rem;
+  width: 65%;
+}
+h1 {
+  color: #FD5E9F;
+  font-weight: bold;
+}
+
+h2 {
+  color: #0F40B4;
+}
+
+h3 {
+  color: #FD5E9F;
+  font-weight: bold;
+}
+
+h4 {
+  color: #0F40B4;
+}
+
+footer {
+  background: #C5CAE9;
+  color: #0F40B4;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 990px;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+a.linkFooter {
+  color: #FD5E9F;
+}
+
+p {
+  text-align: justify;
+}
+
+@media (max-width: 480px) {
+
+  body {
+    width: auto;
+  }
+  .container{
+    flex-flow: column;
+  }
+
+  .informacionGeneral {
+    width: auto;
+  }
+
+  .antecedentes {
+    width: auto;
+  }
+}
